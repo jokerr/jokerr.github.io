@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Kerr</title>
+    <description>Husband, father, developer/architect</description>
+    <link>http://jokerr.github.io//</link>
+    <atom:link href="http://jokerr.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 12 Apr 2016 20:11:10 -0500</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 20:11:10 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Bash on Windows 10!</title>
+        <description>&lt;p&gt;I’ve read the announcement and I’ve seen the announcement on &lt;a href=&quot;https://channel9.msdn.com/Events/Build/2016/p488?ocid=player&quot;&gt;Channel 9&lt;/a&gt; and I still can hardly believe it. Bash running natively on Windows 10?!  Wow.  Just…wow!  I’m still loving &lt;a href=&quot;/2015/the-new-microsoft&quot;&gt;the new Microsoft&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 30 Mar 2016 10:00:00 -0500</pubDate>
+        <link>http://jokerr.github.io//2016/bash-on-windows-10/</link>
+        <guid isPermaLink="true">http://jokerr.github.io//2016/bash-on-windows-10/</guid>
+        
+        <category>microsoft</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+      <item>
+        <title>Reflecting on 8</title>
+        <description>&lt;p&gt;It’s a little hard for me to believe that I’ve been at &lt;a href=&quot;http://www.usaa.com&quot; target=&quot;\_blank&quot;&gt;USAA&lt;/a&gt; for eight years this July. Since I started there in 2007 I’ve worked in just about every type of team you can find at such a large organization; maintenance and support, operations, infrastructure, and delivery. Two of those eight years have been on the Revolutionary Development (RevDev) Team where we’ve implemented various disruptive and innovative features for our members. I’d love to say more about the other projects but…yeah…NDA.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://jokerr.github.io//2015/reflecting-on-8/</link>
+        <guid isPermaLink="true">http://jokerr.github.io//2015/reflecting-on-8/</guid>
+        
+        <category>work</category>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>The New Microsoft</title>
+        <description>&lt;p&gt;If you asked me 10 years ago what I thought of Windows I wouldn’t have too many nice things to say about it. Linux was the desktop for me and the only reason to run Windows was to play &lt;a href=&quot;http://us.battle.net/wow&quot;&gt;World of Warcraft&lt;/a&gt;. My how times have changed and I must say I’m liking the new and improved Microsoft. They have a great tablet in the latest Surface Pro series. Office has always been one of their flagship products but they loosened the grip on it a bit with &lt;a href=&quot;https://blogs.dropbox.com/dropbox/2014/11/dropbox-microsoft-office-partnership/&quot;&gt;DropBox integration&lt;/a&gt; and support for &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.microsoft.office.officehub&amp;amp;hl=en&quot;&gt;Android&lt;/a&gt; and &lt;a href=&quot;https://itunes.apple.com/us/artist/microsoft-corporation/id298856275&quot;&gt;iOS&lt;/a&gt;. Windows 10 looks promising, heck I’m installing a preview now?! And probably my biggest surprise is the they put a lightweight IDE on all platforms!&lt;/p&gt;
+
+&lt;p&gt;Now if they would put in a real command line shell I’m sold!  Cygwin is decent and in all fairness I haven’t given PowerShell a real go but what can I say, I’m a forward slash kind of guy.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://jokerr.github.io//2015/the-new-microsoft/</link>
+        <guid isPermaLink="true">http://jokerr.github.io//2015/the-new-microsoft/</guid>
+        
+        <category>microsoft</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>

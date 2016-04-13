@@ -1,0 +1,40 @@
+# Site settings
+title: Josh Kerr
+description: 'Husband, father, developer/architect'
+url: 'http://jokerr.github.io'
+baseurl: '/' # 
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Josh Kerr'
+  email: me@joshuakerr.com
+  twitter_username: jokerr
+  flickr_username: jokerr
+#  facebook_username: kerrminator
+#  github_username:  jokerr
+  linkedin_username:  joshuakerr
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
