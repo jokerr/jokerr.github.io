@@ -1,6 +1,5 @@
 ---
 layout: post
-section-type: post
 title: The New Microsoft
 category: general
 tags: [ 'microsoft' ]

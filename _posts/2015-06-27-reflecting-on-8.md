@@ -1,6 +1,5 @@
 ---
 layout: post
-section-type: post
 title: Reflecting on 8
 category: work
 tags: [ 'work' ]
