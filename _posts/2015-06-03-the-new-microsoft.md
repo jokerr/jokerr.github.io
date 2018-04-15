@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The New Microsoft
+title: "The New Microsoft"
 category: general
 tags: [ 'microsoft' ]
 ---
