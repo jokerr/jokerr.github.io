@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash on Windows 10!
+title: "Bash on Windows 10!"
 date: 2016-03-30 15:00:00
 categories: [general]
 tags: [microsoft]
