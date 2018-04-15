@@ -23,12 +23,14 @@ url: "http://jokerr.io" # the base hostname & protocol for your site, e.g. http:
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/278364?v=3&s=460
 
-twitter_username: jokerr
-github_username:  jokerr
+github: https://github.com/jokerr
+medium: https://medium.com/@joshuakerr
+twitter: http://twitter.com/jokerr
+linkedin: https://www.linkedin.com/in/joshuakerr/
 
 # Material Theme settings
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+parallax_image_two: assets/images/contact3.jpg
 cookie_banner: none #show - to show
 cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
 syntax_highlighting: true # include the css for syntax highlighting
@@ -37,27 +39,26 @@ portfolio_heading: Portfolio
 portfolio_type: cards #cards or carousel
 
 #icons are for carousel only - from materiailize css, the full collection is here: http://materializecss.com/icons.html
+project_one: Developer/Architect
+project_one_description: Developer, architect, hacker.  Various projects, examples, and tinkering I've done and can share.
+project_one_url: https://github.com/jokerr
+project_one_url_text: GitHub
+project_one_img: contact2.jpg
+project_one_icon: hotel
 
-project_one: "Heights Community Church AV"
-project_one_description: Director of all things media including audio, visual, and photography.
-project_one_url: http://heightscc.com/
-project_one_url_text: HeightsCC.com
-project_one_img: heights_cc_background.jpg
-project_one_icon: photo_camera
+project_two: "Heights Community Church AV"
+project_two_description: Director of all things media including audio, visual, and photography.
+project_two_url: http://heightscc.com/
+project_two_url_text: HeightsCC.com
+project_two_img: heights_cc_background.jpg
+project_two_icon: photo_camera
 
-project_two: "SATJUG"
-project_two_description: Organizer and speaker for the San Antonio Java User Group.
-project_two_url: https://www.meetup.com/San-Antonio-Java-User-Group/
-project_two_url_text: Meetup
-project_two_img: java_rocks.jpg
-project_two_icon: location_on
-
-project_three: Developer/Architect
-project_three_description: Developer, architect, hacker.  Various projects, examples, and tinkering I've done and can share.
-project_three_url: https://github.com/jokerr
-project_three_url_text: GitHub
-project_three_img: contact2.jpg
-project_three_icon: hotel
+project_three: "SATJUG"
+project_three_description: Organizer and speaker for the San Antonio Java User Group.
+project_three_url: https://www.meetup.com/San-Antonio-Java-User-Group/
+project_three_url_text: Meetup
+project_three_img: java_rocks.jpg
+project_three_icon: location_on
 
 project_four: Photography
 project_four_description: Amatuer photographer during my freetime.
@@ -67,17 +68,6 @@ project_four_img: camera_vintage.jpg
 project_four_icon: restaurant
 
 project_button: Github
-github: https://github.com/jokerr
-medium: https://medium.com/@joshuakerr
-medium_username: joshuakerr
-# Skills - icons from https://konpa.github.io/devicon/
-skills:
-  - name: github
-  - name: twitter
-  - name: flickr
-
-icon_size: 50 # font-size of icons in px
-colored: colored # Leave blank for black and white icons
 
 # Build settings
 markdown: kramdown
