@@ -71,7 +71,7 @@ project_button: Github
 
 # Build settings
 markdown: kramdown
-theme: jekyll-material-theme #minima
+#theme: jekyll-material-theme #minima
 permalink: pretty
 plugins:
   - jekyll-feed
