@@ -1,91 +1,39 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Jokerr.IO
-email: me@joshuakerr.com
+# Setup
+title:               Jokerr.io
+tagline:             'Home of the Jokerr'
 description: >- # this means to ignore newlines until "baseurl:"
   Husband, Father, Developer/Architect
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jokerr.io" # the base hostname & protocol for your site, e.g. http://example.com
+url:                 http://jokerr.io
+baseurl:             ''
+paginate:            5
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars3.githubusercontent.com/u/278364?v=3&s=460
+# About/contact
+author:
+  name:              Josh Kerr
+  url:               https://twitter.com/jokerr
+  email:             josh.kerr917@gmail.com
 
-github: https://github.com/jokerr
-medium: https://medium.com/@joshuakerr
-twitter: http://twitter.com/jokerr
-linkedin: https://www.linkedin.com/in/joshuakerr/
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-# Material Theme settings
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/contact3.jpg
-cookie_banner: none #show - to show
-cookie_accept_message: Thanks! # The pop-up dialog that appears after accepting the cookie notice.
-syntax_highlighting: true # include the css for syntax highlighting
-# Portfolio
-portfolio_heading: Portfolio
-portfolio_type: cards #cards or carousel
+# Custom vars
+version:    1.0.0
+avatar:     https://avatars3.githubusercontent.com/u/278364?v=3&s=460
+github:     https://github.com/jokerr
+medium:     https://medium.com/@joshuakerr
+twitter:    http://twitter.com/jokerr
+linkedin:   https://www.linkedin.com/in/joshuakerr/
+flickr:     http://flickr.com/jokerr
 
-#icons are for carousel only - from materiailize css, the full collection is here: http://materializecss.com/icons.html
-project_one: Developer/Architect
-project_one_description: Developer, architect, hacker.  Various projects, examples, and tinkering I've done and can share.
-project_one_url: https://github.com/jokerr
-project_one_url_text: GitHub
-project_one_img: contact2.jpg
-project_one_icon: hotel
-
-project_two: "Heights Community Church AV"
-project_two_description: Director of all things media including audio, visual, and photography.
-project_two_url: http://heightscc.com/
-project_two_url_text: HeightsCC.com
-project_two_img: heights_cc_background.jpg
-project_two_icon: photo_camera
-
-project_three: "SATJUG"
-project_three_description: Organizer and speaker for the San Antonio Java User Group.
-project_three_url: https://www.meetup.com/San-Antonio-Java-User-Group/
-project_three_url_text: Meetup
-project_three_img: java_rocks.jpg
-project_three_icon: location_on
-
-project_four: Photography
-project_four_description: Amatuer photographer during my freetime.
-project_four_url: https://www.flickr.com/photos/jokerr
-project_four_url_text: Flickr
-project_four_img: camera_vintage.jpg
-project_four_icon: restaurant
-
-project_button: Github
-
-# Build settings
-markdown: kramdown
-#theme: jekyll-material-theme #minima
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
