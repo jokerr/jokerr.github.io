@@ -1,39 +1,34 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-
-# Setup
 title:               Jokerr.io
+author:
+  name: Josh Kerr
+  #email: josh@jokerr.io
 tagline:             'Home of the Jokerr'
 description: >- # this means to ignore newlines until "baseurl:"
   Husband, Father, Developer/Architect
-url:                 http://jokerr.io
-baseurl:             ''
-paginate:            5
+url: http://jokerr.io
+baseurl: ''
 
-# About/contact
-author:
-  name:              Josh Kerr
-  url:               https://twitter.com/jokerr
-  email:             josh.kerr917@gmail.com
 
-# Assets
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+#paginate: 5
 
-# Custom vars
-version:    1.0.0
-avatar:     https://avatars3.githubusercontent.com/u/278364?v=3&s=460
-github:     https://github.com/jokerr
-medium:     https://medium.com/@joshuakerr
-twitter:    http://twitter.com/jokerr
-linkedin:   https://www.linkedin.com/in/joshuakerr/
-flickr:     http://flickr.com/jokerr
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+minima:
+  social_links:
+    twitter: jokerr
+    github: jokerr
+    flickr: jokerr
+    instagram: jokerr917
+    linkedin: joshuakerr
+    keybase: jokerr
+
+theme: minima
 
 # Gems
-gems:
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-gist
+  #- jekyll-gist
